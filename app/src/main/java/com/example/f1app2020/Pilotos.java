@@ -20,11 +20,6 @@ public class Pilotos extends AppCompatActivity {
 
         setContentView(R.layout.activity_pilotos);
         textViewPilotos = findViewById(R.id.textViewPilotos);
-
-
-
-
-
                 GetPilotos getPilotos = new GetPilotos();
                 getPilotos.execute();
 

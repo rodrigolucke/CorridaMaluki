@@ -24,13 +24,6 @@
             tools:srcCompat="@android:drawable/ic_menu_gallery" />
 
         <Button
-            android:id="@+id/buttonTemporada"
-            android:onClick="startTemporadaActivity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Temporada" />
-
-        <Button
             android:id="@+id/buttonGp"
             android:onClick="startGpsActivity"
             android:layout_width="match_parent"

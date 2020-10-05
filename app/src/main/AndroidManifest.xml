@@ -16,10 +16,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Grid"></activity>
         <activity android:name=".Equipes" />
-        <activity android:name=".Outros" />
         <activity android:name=".Pilotos" />
         <activity android:name=".Gps" />
-        <activity android:name=".Temporadas" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

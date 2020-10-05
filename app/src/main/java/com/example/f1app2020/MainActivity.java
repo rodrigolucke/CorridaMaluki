@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
             buttonEquipe = (Button)findViewById(R.id.buttonEquipes);
             buttonGp = (Button)findViewById(R.id.buttonGp);
-            buttonTemporada = (Button)findViewById(R.id.buttonTemporada);
             buttonPiloto = (Button)findViewById(R.id.buttonPiloto);
             buttonOutros = (Button)findViewById(R.id.buttonOutros);
 
@@ -34,11 +33,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(mainActivity);
         }
 
-        public void startTemporadaActivity(View view){
-            Intent temporadaActivity = new Intent(this, Temporadas.class);
-            startActivity(temporadaActivity);
-        }
-
         public void startGpsActivity(View view){
             Intent gpsActivity = new Intent(this, Gps.class);
             startActivity(gpsActivity);
@@ -47,11 +41,6 @@ public class MainActivity extends AppCompatActivity {
         public void startPilotosActivity(View view){
             Intent pilotosActivity = new Intent(this, Pilotos.class);
             startActivity(pilotosActivity);
-        }
-
-        public void startOutrosActivity(View view){
-            Intent outrosActivity = new Intent(this,Outros.class);
-            startActivity(outrosActivity);
         }
 
         public void startEquipesActivity(View view){
