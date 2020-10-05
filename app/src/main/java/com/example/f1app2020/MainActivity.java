@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             buttonEquipe = (Button)findViewById(R.id.buttonEquipes);
             buttonGp = (Button)findViewById(R.id.buttonGp);
             buttonPiloto = (Button)findViewById(R.id.buttonPiloto);
-            buttonOutros = (Button)findViewById(R.id.buttonOutros);
 
 
 
